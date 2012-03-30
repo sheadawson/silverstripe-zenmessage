@@ -1,0 +1,27 @@
+/* Messages
+================================================== */
+
+.notice{
+	padding: 3px 10px;
+	border: 1px solid #EEE;
+	background: #EDEFF7;
+}
+
+p.message {
+	border: 1px solid #CCBD00;
+	padding:10px;
+	margin: 0 0 15px;
+	color:#CCBD00;
+	background:#FFF8D7;
+	border-color:#F1E988;
+}
+
+p.message:before{
+	font-family: icons;
+	font-weight: normal !important;
+	font-style: normal !important;
+	text-transform: none !important;
+	padding-right: 3px;
+	zoom: 1;
+	position: relative;
+}
