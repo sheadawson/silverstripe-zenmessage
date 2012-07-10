@@ -36,7 +36,7 @@ class ZenMessageExtension extends Extension{
 		if($message = Session::get('Message')){
 			Session::clear('Message');
 			$array = new ArrayData($message);
-			return $array->renderWith('Message');
+			return $array->renderWith('ZenMessage');
 		}
 	}
 
