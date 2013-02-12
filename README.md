@@ -24,7 +24,7 @@ This simple module gives developers an easy way to display feedback messages to 
 
 To set a message simply call the setMessage($messageType, $message) method on your controller. Passing in the message type as the first parameter and the message as the second 
 
-$this->setMessage('success', 'You have successfully set a message');
+	$this->setMessage('success', 'You have successfully set a message');
 
 ### Displaying Messages
 
