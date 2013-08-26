@@ -1,10 +1,20 @@
 {
-	"name": "silverstripe/zenmessage",
+	"name": "sheadawson/zenmessage",
 	"description": "A simple extension to allow custom message/notice setting in ss applications",
-	"require": {
-		"php": ">=5.3.2",
-		"silverstripe/cms": ">=3.0.3",
-		"silverstripe/framework": ">=3.0.3"
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe"],
+	"homepage": "http://github.com/sheadawson/silverstripe-zenmessage",
+	"authors": [
+	{
+		"name": "Shea Dawson",
+		"email": "shea@silverstripe.com.au"
+	}
+	],
+
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"composer/installers": "*"
 	},
-	"minimum-stability": "dev"
+	"replace": {"silverstripe/zenmessage": "*"}
 }
