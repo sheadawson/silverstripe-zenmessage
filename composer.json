@@ -1,5 +1,5 @@
 {
-	"name": "sheadawson/zenmessage",
+	"name": "sheadawson/silverstripe-zenmessage",
 	"description": "A simple extension to allow custom message/notice setting in ss applications",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe"],
@@ -15,6 +15,9 @@
 	{
 		"silverstripe/framework": "3.*",
 		"composer/installers": "*"
+	},
+	"extra": {
+		"installer-name": "zenmessage"
 	},
 	"replace": {"silverstripe/zenmessage": "*"}
 }
