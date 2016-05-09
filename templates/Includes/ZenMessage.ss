@@ -1,4 +1,4 @@
 <% if Message %>
-	<p class='zen-message' id='{$MessageType}Message'>$Message</p>
+	<p class="zenmessage zenmessage--$MessageType">$Message</p>
 <% end_if %>
 
