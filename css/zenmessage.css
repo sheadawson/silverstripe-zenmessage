@@ -1,0 +1,20 @@
+.zenmessage {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.zenmessage--success {
+    border-color: #84cc84;
+    background: #effbef;
+}
+
+.zenmessage--info {
+    border-color: #f1e878;
+    background: #fffde4;
+}
+
+.zenmessage--error {
+    border-color: #f17878;
+    background: #fdefef;
+}
